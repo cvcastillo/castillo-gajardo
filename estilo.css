@@ -174,13 +174,6 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
     background-repeat: no-repeat;
 }
 
-.integrante:nth-of-type(3){
-    background:#FA7633;
-    background-image:url('media/integrante-3a.png');
-    background-position: bottom right;
-    background-size:auto 90%;
-    background-repeat: no-repeat;
-}
 
 .integrante:nth-of-type(1):hover{
     background-color:#c2185b;
@@ -198,14 +191,6 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
     background-repeat: no-repeat;
 }
 
-.integrante:nth-of-type(3):hover{
-    background:#ef6c00;
-    background-image:url('media/integrante-3b.png');
-    background-position: bottom right;
-    background-size:auto 90%;
-    background-repeat: no-repeat;
-}
-
 /*
 
 AHORA VAMOS POR PORTAFOLIO
@@ -215,7 +200,7 @@ AHORA VAMOS POR PORTAFOLIO
 #portafolio{
     width:100%;
     padding:.25% 0;
-    background:linear-gradient(to bottom, #EEEEEE, #AAAAAA);
+    background:linear-gradient(to bottom, #fae1b3, #d66c1e);
 }
 
 .item {
