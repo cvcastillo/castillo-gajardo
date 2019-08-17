@@ -168,7 +168,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 
 .integrante:nth-of-type(2){
     background:#F93332;
-    background-image:url('media/integrante-2a.png');
+    background-image:url('media/integrante1.png');
     background-position: bottom right;
     background-size:auto 90%;
     background-repeat: no-repeat;
@@ -177,15 +177,15 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 
 .integrante:nth-of-type(1):hover{
     background-color:#c2185b;
-    background-image:url('media/integrante-1b.png');
+    background-image:url('media/integrante-1a.png');
     background-position: bottom right;
-    background-size:auto 90%;
+    background-size:height 90% 100%;
     background-repeat: no-repeat;
 }
 
 .integrante:nth-of-type(2):hover{
     background:#d32f2f;
-    background-image:url('media/integrante-2b.png');
+    background-image:url('media/integrante2_Hover.gif');
     background-position: bottom right;
     background-size:auto 90%;
     background-repeat: no-repeat;
