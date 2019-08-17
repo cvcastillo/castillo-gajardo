@@ -18,7 +18,7 @@ body{
     font-family:'DM Sans', sans-serif;
     font-weight:400;
     color:#373737;
-    background-color:#FFFFFF; /*el primer par es R, segundo es G y tercero es B*/
+    background-color:#7ddcfc; /*el primer par es R, segundo es G y tercero es B*/
 }
 
 h1, h2{
@@ -158,51 +158,38 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 }
 
 .integrante:nth-of-type(1){
-    background-color:#F83277;
+    background-color:#d66c1e;
     background-image:url('media/integrante-1a.png');
     background-position: bottom right;
-    background-size:auto 90%;
+    background-size:auto 100%;
     background-repeat: no-repeat;
+    margin-bottom: 18px;
 }
 
 
 .integrante:nth-of-type(2){
     background:#F93332;
-    background-image:url('media/integrante-2a.png');
+    background-image:url('media/integrante1.png');
     background-position: bottom right;
-    background-size:auto 90%;
+    background-size:auto 100%;
     background-repeat: no-repeat;
+    margin-bottom: 18px;
 }
 
-.integrante:nth-of-type(3){
-    background:#FA7633;
-    background-image:url('media/integrante-3a.png');
-    background-position: bottom right;
-    background-size:auto 90%;
-    background-repeat: no-repeat;
-}
 
 .integrante:nth-of-type(1):hover{
     background-color:#c2185b;
-    background-image:url('media/integrante-1b.png');
+    background-image:url('media/integrante-1a.png');
     background-position: bottom right;
-    background-size:auto 90%;
+    background-size:height auto 100%;
     background-repeat: no-repeat;
 }
 
 .integrante:nth-of-type(2):hover{
     background:#d32f2f;
-    background-image:url('media/integrante-2b.png');
+    background-image:url('media/integrante2_Hover.gif');
     background-position: bottom right;
-    background-size:auto 90%;
-    background-repeat: no-repeat;
-}
-
-.integrante:nth-of-type(3):hover{
-    background:#ef6c00;
-    background-image:url('media/integrante-3b.png');
-    background-position: bottom right;
-    background-size:auto 90%;
+    background-size:auto 100%;
     background-repeat: no-repeat;
 }
 
@@ -215,7 +202,7 @@ AHORA VAMOS POR PORTAFOLIO
 #portafolio{
     width:100%;
     padding:.25% 0;
-    background:linear-gradient(to bottom, #EEEEEE, #AAAAAA);
+    background:linear-gradient(to bottom, #fae1b3, #d66c1e);
 }
 
 .item {

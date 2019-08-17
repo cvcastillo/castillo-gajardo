@@ -30,7 +30,7 @@ var trabajos = [{
     about: "Texto simulado de descripción de sexto trabajo"
 }, {
     figure: "media/trabajo-07-materiales.jpg",
-    alt: "Descripción de la imagen",
+    alt: "Descripción de la 3e3e3imagen",
     title: "Título de séptimo trabajo",
     about: "Texto simulado de descripción de séptimo trabajo"
 }];
