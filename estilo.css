@@ -18,7 +18,7 @@ body{
     font-family:'DM Sans', sans-serif;
     font-weight:400;
     color:#373737;
-    background-color:#7ddcfc; /*el primer par es R, segundo es G y tercero es B*/
+    background-color:linear-gradient(to bottom, #fae1b3, #d66c1e); /*el primer par es R, segundo es G y tercero es B*/
 }
 
 h1, h2{
@@ -202,7 +202,7 @@ AHORA VAMOS POR PORTAFOLIO
 #portafolio{
     width:100%;
     padding:.25% 0;
-    background:linear-gradient(to bottom, #fae1b3, #d66c1e);
+    background:rgb(49, 160, 224);
 }
 
 .item {
