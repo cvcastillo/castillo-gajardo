@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=DM+Sans:400,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
 
 /* 
 
@@ -15,14 +16,14 @@ se cierran con asterisco slash.
 }
 
 body{
-    font-family:'DM Sans', sans-serif;
+    font-family:'Roboto Condensed', sans-serif;
     font-weight:400;
     color:#373737;
     background-color:#383C3E; /*el primer par es R, segundo es G y tercero es B*/
 }
 
 h1, h2{
-    font-family:'Space Mono', monospace;
+    font-family:'Roboto Condensed', monospace;
     color:#FFFFFF; /* lo básico, para evitar problemas */
     color:rgba(255,255,255,0.8); /* si el navegador lo entiende, lo usa */
     text-align:center;
