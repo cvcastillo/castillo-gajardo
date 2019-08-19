@@ -13,7 +13,6 @@ se cierran con asterisco slash.
 *{
     margin:0;
     padding:0;
-    
 }
 
 body{
@@ -21,7 +20,6 @@ body{
     font-weight:400;
     color:#373737;
     background-color:#383C3E; /*el primer par es R, segundo es G y tercero es B*/
-    cursor: url('media/cursor.png'), auto;
 }
 
 h1, h2{
