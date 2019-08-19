@@ -13,6 +13,7 @@ se cierran con asterisco slash.
 *{
     margin:0;
     padding:0;
+    
 }
 
 body{
@@ -20,6 +21,7 @@ body{
     font-weight:400;
     color:#373737;
     background-color:#383C3E; /*el primer par es R, segundo es G y tercero es B*/
+    cursor: url('media/cursor.png'), auto;
 }
 
 h1, h2{
@@ -180,7 +182,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 
 .integrante:nth-of-type(1):hover{
     background-color:#89B4B2;
-    background-image:url('media/integrante1_a.png');
+    background-image:url('media/integrante1_b.gif');
     background-position: bottom right;
     background-size:height auto 100%;
     background-repeat: no-repeat;
@@ -188,7 +190,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 
 .integrante:nth-of-type(2):hover{
     background:#89B4B2;
-    background-image:url('media/integrante2_a.png');
+    background-image:url('media/integrante2_b.gif');
     background-position: bottom right;
     background-size:auto 100%;
     background-repeat: no-repeat;
