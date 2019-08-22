@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
 
+
 /* 
 
 Así se escriben los comentario en CSS.
@@ -275,7 +276,7 @@ ul {
     overflow: hidden;
     background-color:#333333;
     position: fixed;
-    font-family:'Roboto Condensed', sans-serif;
+    font-family:'Roboto', sans-serif;
     width: 100%;
     -webkit-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.5);
