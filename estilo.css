@@ -21,7 +21,7 @@ body{
     font-family:'Roboto Condensed', sans-serif;
     font-weight:400;
     color:#373737;
-    background-color:#383C3E; /*el primer par es R, segundo es G y tercero es B*/
+    background-color:#1e1e1e; /*el primer par es R, segundo es G y tercero es B*/
 }
 
 h1, h2{
@@ -157,7 +157,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 }
 
 .integrante:nth-of-type(1){
-    background-color:#4C4C4F;
+    background-color:#2c2c2c;
     background-image:url('media/integrante1_a.png');
     background-position: bottom right;
     background-size:auto 100%;
@@ -167,7 +167,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 
 
 .integrante:nth-of-type(2){
-    background:#4C4C4F;
+    background:#2c2c2c;
     background-image:url('media/integrante2_a.png');
     background-position: bottom right;
     background-size:auto 100%;
@@ -201,7 +201,7 @@ AHORA VAMOS POR PORTAFOLIO
 #portafolio{
     width:100%;
     padding:.25% 0;
-    background:#4C4C4F;
+    background:#2c2c2c;
 }
 
 .item {
@@ -274,11 +274,11 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:#626567;
+    background-color:#333333;
     position: fixed;
     font-family:'Roboto Condensed', sans-serif;
     width: 100%;
-    webkit-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.5);
     box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
 
