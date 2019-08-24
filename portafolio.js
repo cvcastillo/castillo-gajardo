@@ -49,3 +49,13 @@ $.each(trabajos, function(i, val) {
     var cuatro = '<p class="itemIntegrantes">Integrantes: ' + trabajos[i].integrantes + '</p>';
     $('#portafolio').append('<div class="item">' + uno + dos + tres + cuatro +'</div>')
 });
+
+
+function myFunction() {
+    var x = document.getElementById("nav");
+    if (x.className === "nav") {
+      x.className += " responsive";
+    } else {
+      x.className = "nav";
+    }
+  } 

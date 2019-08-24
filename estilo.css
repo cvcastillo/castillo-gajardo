@@ -248,6 +248,7 @@ AHORA VAMOS POR PORTAFOLIO
      filter: grayscale(0);
      transition:all ease-out 1s;
 }
+
  .item h4{
      font-size:1em;
      letter-spacing:0.025em;
@@ -271,13 +272,13 @@ AHORA VAMOS POR PORTAFOLIO
 }
 
 
-ul {
+.nav{
     z-index: 10000;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:#2c2c2c;
+    background-color:#353535;
     position: fixed;
     font-family:'Roboto Condensed', sans-serif;
     width: 100%;
@@ -290,38 +291,60 @@ ul {
 
 }
 
-li {
-    float: left;
 
-  
-}
-  
-li a {
+.nav a {
+    float: left;
     display: block;
     color: white;
     text-align: center;
     padding: 24px 16px;
     text-decoration: none;
     font-weight: bold;
-    
-    
-
 }
 
-li a:hover {
+.nav a:hover {
     color: #89B4B2;
 }
 
-.logo {
+.nav .logo {
     padding: 17px 40px;
     float: left;
     margin-left: 180px
 }
 
-.logo:hover{
-    color: #89B4B2
-
+.nav .icon {
+    display: none;
+    color: #eee;
+    height: auto;
 }
+
+@media screen and (max-width: 600px) {
+    .nav a:not(:first-child) {
+        display: none;
+    }
+    .nav a.icon {
+      float: right;
+      display: block;
+      margin: 0;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .nav.responsive {position: fixed;}
+    .nav .logo {
+        margin-left: 10px;
+    }
+    .nav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .nav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
   
 .anchor {
     display: block;
@@ -332,6 +355,6 @@ li a:hover {
 
 .integrante {
     -webkit-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.5);
--moz-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.5);
-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
  }

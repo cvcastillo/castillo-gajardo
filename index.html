@@ -2,6 +2,7 @@
 <html lang="es">
 
 <head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Proyecto Panqueques</title>
@@ -20,23 +21,24 @@
     <meta name="og:description" content="Portafolio de Carla Castillo y Fernando Gajardo">
     <meta name="og:image" content="https://cvcastillo.github.io/castillo-gajardo/media/imagen.png">
     <meta name="og:type" content="website">
-    <meta property="og:locale" content="en_GB" />
+    <meta property="og:locale" content="es_ES" />
     <!-- Ahora vinculamos el estilo -->
     <link rel="stylesheet" href="estilo.css" type="text/css">
 </head>
 <nav>
-    <div class="shadow">
-        <ul>
+    <div class="nav" id="nav">
             <a href="#inicio" class="logo"><img src="media/logo.png"></a>
-            <li><a href="#equipoAnchor">EL EQUIPO</a></li>
-            <li><a href="#portafolioAnchor">NUESTROS TRABAJOS</a></li>
-        </ul>
+            <a href="#equipoAnchor" onclick="myFunction()">EL EQUIPO</a>
+            <a href="#portafolioAnchor" onclick="myFunction()">NUESTROS TRABAJOS</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="material-icons">menu</i>
+            </a>
     </div>
 </nav>
 
 <body>  
     <header>
-        <h1>Proyecto Panqueques</h1>
+        <h1>Proyecto Colo colo</h1>
         <h2></h2>
     </header>
     <a class="anchor" id="inicio"></a>
