@@ -59,7 +59,7 @@ h5, h6{
 }
 
 a{
-    color:rgb(155,0,0);
+    color: #FFF;
     text-decoration:none;
 }
 
@@ -96,14 +96,6 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
     flex-direction: row;
     flex-wrap: wrap;
     color:#2c2c2c;
-}
-
-#equipo a{
-    color:#2c2c2c;
-}
-
-#equipo a:hover{
-    color:#89B4B2;
 }
 
 .integrante {

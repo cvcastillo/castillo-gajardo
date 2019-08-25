@@ -5,13 +5,13 @@ var trabajos = [{
     about: "Casa para perro diseñada para la manofactura asistida por computador, especificamente para la maquina CNC router. ",
     integrantes: "Carla Castillo, Fernando Gajardo y Florencia Vicuña"
 }, {
-    figure: "media/trabajo2_nauca.jpg",
+    figure: "media/trabajo-02-nauca.jpg",
     alt: "Urinario de pvc para mujeres en situación de emergencia",
     title: "Nauca",
     about: "Nauca, es un urinario público para mujeres, el cual facilita la necesidad de orinar en contextos de emergencia, solucionando los principales problemas femeninos en éstas situaciones, tales como la falta de privacidad e higiene.",
     integrantes: "Carla Castillo, Chriss Ramírez, Florencia Valdés, Shuting Zhong"
 }, {
-    figure: "media/trabajo3_micelio.png",
+    figure: "media/trabajo-03-micelio.jpg",
     alt: "Logotipo del proyecto dentro de la página web",
     title: "Micelio",
     about: "Sistema dedicado a proporcionar y compartir conocimientos del rubro agricultor",
@@ -23,13 +23,13 @@ var trabajos = [{
     about: "Rediseño de las visitas guiadas a jardines infantiles en el ecoparque de Peñalolén, el proyecto incluyo la creación de actividades, juegos y canciones",
     integrantes: "Luciano Carprile, Fernando Gajardo, Rodrigo Guzmán y Florencia Vicuña"
 }, {
-    figure: "media/trabajo5_tumis.png",
+    figure: "media/trabajo-05-tumis.jpg",
     alt: "Contenedor de comida plegable",
     title: "Tumis",
     about: "Portador de colaciones hermético y plegable, que aporta en el aprendizaje de hábitos alimenticios de niños en edad pre escolar y escolar.",
     integrantes: "Carla Castillo, Fernando Gajardo, Rodrigo Guzmán, María Jesús Viñales"
 }, {
-    figure: "media/trabajo6_lagarra.png",
+    figure: "media/trabajo-06-lagarra.jpg",
     alt: "Render de implemento para recoger juguetes",
     title: "La Garra",
     about: "Implemento ergonómico que ayuda a recoger juguetes pequeños del piso sin tener que agacharse.",
