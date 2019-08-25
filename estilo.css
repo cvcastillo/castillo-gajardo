@@ -23,8 +23,6 @@ body{
 }
 
 h1, h2{
-    font-family:'Roboto Condensed', monospace;
-    color:#000000; /* lo básico, para evitar problemas */
     font-family:'Raleway', sans-serif;
     color:#FFFFFF; /* lo básico, para evitar problemas */
     color:rgba(255,255,255,0.8); /* si el navegador lo entiende, lo usa */
@@ -341,7 +339,19 @@ AHORA VAMOS POR PORTAFOLIO
       text-align: left;
     }
   }
-  
+  @media screen and (max-width: 800px) {
+    .nav.responsive {position: fixed;}
+    .nav .logo {
+        margin-left: 10px;
+    }
+    .nav.responsive a.icon {
+        display: none;
+    }
+    .nav.responsive a {
+      display: block;
+      text-align: left;
+    }
+  }
 .anchor {
     display: block;
     position: relative;

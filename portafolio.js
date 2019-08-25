@@ -17,11 +17,11 @@ var trabajos = [{
     about: "Sistema dedicado a proporcionar y compartir conocimientos del rubro agricultor",
     integrantes: "Carla Castillo, Fernando Gajardo, Monserrat Pulgar, Florencia Vicuña, María Jesús Viñales"
 }, {
-    figure: "media/trabajo-04-editorial.jpg",
-    alt: "Descripción de la imagen",
-    title: "Título de cuarto trabajo",
-    about: "Texto simulado de descripción de cuarto trabajo",
-    integrantes: "Carla Castillo y Fernando Gajardo"
+    figure: "media/trabajo-04-Ecoparque.jpg",
+    alt: "Niños mostrando sus plantas en un parque",
+    title: "Visitas guiadas Ecoparque Peñalolén",
+    about: "Rediseño de las visitas guiadas a jardines infantiles en el ecoparque de Peñalolén, el proyecto incluyo la creación de actividades, juegos y canciones",
+    integrantes: "Luciano Carprile, Fernando Gajardo, Rodrigo Guzmán y Florencia Vicuña"
 }, {
     figure: "media/trabajo5_tumis.png",
     alt: "Contenedor de comida plegable",
