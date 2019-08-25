@@ -100,7 +100,6 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    color:#fff /* lo mismo que #FFFFFF, simplificando pares iguales*/;
     color:#2c2c2c;
 }
 
@@ -109,7 +108,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 }
 
 #equipo a:hover{
-    color:#2c2c2c;
+    color:#89B4B2;
 }
 
 .integrante {
@@ -181,14 +180,17 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 
 .integrante:nth-of-type(1):hover{
     background-color:#212121;
+    color:#FFF;
     background-image:url('media/integrante1_b.png');
     background-position: bottom right;
     background-size:height auto 100%;
     background-repeat: no-repeat;
 }
 
+
 .integrante:nth-of-type(2):hover{
-    background:#81D2F2;
+    background-color:#212121;
+    color:#FFF;
     background-image:url('media/integrante2_b.png');
     background-position: bottom right;
     background-size:auto 100%;
