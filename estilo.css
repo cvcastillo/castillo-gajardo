@@ -23,6 +23,8 @@ body{
 }
 
 h1, h2{
+    font-family:'Roboto Condensed', monospace;
+    color:#000000; /* lo básico, para evitar problemas */
     font-family:'Raleway', sans-serif;
     color:#FFFFFF; /* lo básico, para evitar problemas */
     color:rgba(255,255,255,0.8); /* si el navegador lo entiende, lo usa */
@@ -227,7 +229,7 @@ AHORA VAMOS POR PORTAFOLIO
      filter: grayscale(1);
 }
  .item:hover figure img{
-     transform:scale(1.1);
+     transform:scale(1.05);
      filter: grayscale(0);
      transition:all ease-out 1s;
 }
