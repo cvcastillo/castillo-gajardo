@@ -1,9 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
-@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap");
-
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Roboto&display=swap');
 
 /* 
 
@@ -21,7 +16,7 @@ html {
 }
 
 body{
-    font-family:'Roboto Condensed', sans-serif;
+    font-family:'Open sans', sans-serif;
     font-weight:400;
     color:#373737;
     background-color:#1e1e1e; /*el primer par es R, segundo es G y tercero es B*/
@@ -30,6 +25,8 @@ body{
 h1, h2{
     font-family:'Roboto Condensed', monospace;
     color:#000000; /* lo básico, para evitar problemas */
+    font-family:'Raleway', sans-serif;
+    color:#FFFFFF; /* lo básico, para evitar problemas */
     color:rgba(255,255,255,0.8); /* si el navegador lo entiende, lo usa */
     text-align:center;
     letter-spacing:0.1em;
@@ -144,20 +141,6 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
     }
 }
 
-.integrante blockquote cite {
-    display:block;
-    font-style: normal;
-    font-weight: 700;
-    font-size:.8rem;
-    letter-spacing : 0.1rem;
-    padding-top:0.25rem;
-    color:rgba(255,255,255,.75);
-}
-
-.integrante blockquote cite:before {
-    content:"— ";
-}
-
 .integrante:nth-of-type(1){
     background-color:#E2E151;
     background-image:url('media/integrante1_a.png');
@@ -252,15 +235,26 @@ AHORA VAMOS POR PORTAFOLIO
 }
 
  .item h4{
+     font-family: "Raleway", sans-serif;
      font-size:1em;
      letter-spacing:0.025em;
      margin:5% 5% 3% 5%;
 }
  .item p{
+     font-family: "Open sans", sans-serif;
      font-size:0.875em;
      letter-spacing:0.05em;
      margin:2% 5% 6% 5%;
 }
+
+.item .itemIntegrantes{
+    font-family: "Open sans", sans-serif;
+    font-size:0.775em;
+
+    letter-spacing:0.05em;
+    margin:2% 5% 6% 5%;
+}
+
  footer{
      width:100%;
      padding:2.5em 0 2em 0;
@@ -282,7 +276,7 @@ AHORA VAMOS POR PORTAFOLIO
     overflow: hidden;
     background-color:#353535;
     position: fixed;
-    font-family:'Open sans', sans-serif;
+    font-family:'Roboto', sans-serif;
     width: 100%;
     -webkit-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.5);
@@ -305,7 +299,7 @@ AHORA VAMOS POR PORTAFOLIO
 }
 
 .nav a:hover {
-    color: #89B4B2;
+    color: #E2E151;
 }
 
 .nav .logo {
