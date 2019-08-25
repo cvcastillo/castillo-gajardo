@@ -100,6 +100,8 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 
 .integrante {
     flex-basis: 100%;
+    margin: auto 1%;
+
 }
 
 .integrante:hover {
@@ -152,7 +154,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 
 
 .integrante:nth-of-type(1):hover{
-    background-color:#272727;
+    background-color:#333333;
     color:#FFF;
     background-image:url('media/integrante1_b.png');
     background-position: bottom right;
@@ -162,7 +164,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 
 
 .integrante:nth-of-type(2):hover{
-    background-color:#272727;
+    background-color:#333333;
     color:#FFF;
     background-image:url('media/integrante2_b.png');
     background-position: bottom right;
