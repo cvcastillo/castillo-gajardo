@@ -29,7 +29,7 @@ body{
 
 h1, h2{
     font-family:'Roboto Condensed', monospace;
-    color:#FFFFFF; /* lo básico, para evitar problemas */
+    color:#000000; /* lo básico, para evitar problemas */
     color:rgba(255,255,255,0.8); /* si el navegador lo entiende, lo usa */
     text-align:center;
     letter-spacing:0.1em;
