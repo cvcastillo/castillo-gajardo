@@ -1,9 +1,9 @@
 var trabajos = [{
-    figure: "media/trabajo-01-desfile.jpg",
-    alt: "Descripción de la imagen",
-    title: "Título de primer trabajo",
-    about: "Texto simulado de descripción de primer trabajo",
-    integrantes: "Carla Castillo y Fernando Gajardo"
+    figure: "media/trabajo-01-casaPerro.jpg",
+    alt: "Render de casa de perro",
+    title: "CAD y CAM Casa de perro",
+    about: "Casa para perro diseñada para la manofactura asistida por computador, especificamente para la maquina CNC router. ",
+    integrantes: "Carla Castillo, Fernando Gajardo y Florencia Vicuña"
 }, {
     figure: "media/trabajo-02-app.jpg",
     alt: "Descripción de la imagen",
