@@ -29,17 +29,17 @@ var trabajos = [{
     about: "Portador de colaciones hermético y plegable, que aporta en el aprendizaje de hábitos alimenticios de niños en edad pre escolar y escolar.",
     integrantes: "Carla Castillo, Fernando Gajardo, Rodrigo Guzmán, María Jesús Viñales"
 }, {
-    figure: "media/trabajo-06-textil.jpg",
-    alt: "Descripción de la imagen",
-    title: "Título de sexto trabajo",
-    about: "Texto simulado de descripción de sexto trabajo",
-    integrantes: "Carla Castillo y Fernando Gajardo"
+    figure: "media/trabajo6_lagarra.png",
+    alt: "Render de implemento para recoger juguetes",
+    title: "La Garra",
+    about: "Implemento ergonómico que ayuda a recoger juguetes pequeños del piso sin tener que agacharse.",
+    integrantes: "Carla Castillo, Loreto Maturana, María Jesús Viñales, Shuting Zhong"
 }, {
-    figure: "media/trabajo-07-materiales.jpg",
-    alt: "Descripción de la 3e3e3imagen",
-    title: "Título de séptimo trabajo",
-    about: "Texto simulado de descripción de séptimo trabajo",
-    integrantes: "Carla Castillo y Fernando Gajardo"
+    figure: "media/trabajo-07-laTribu.jpg",
+    alt: "Componentes del juego de mesa",
+    title: "La Tribu",
+    about: "Juego de mesa que tiene como objetivo desarrollar habilidades necesarias para realizar una investigación, en donde se propone mejorar las capacidades de percibir, describir, seleccionar y analizar.",
+    integrantes: "Luciano Caprile, Fernando Gajardo y Rodrigo Guzmán"
 }];
 // LUEGO CREAMOS PARTES DEL SITIO CON CADA DATO CONTENIDO EN LA VARIABLE
 $.each(trabajos, function(i, val) {
