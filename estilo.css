@@ -84,6 +84,7 @@ video{
     width:98%;
     padding:1% 1% .75% 1%;
     height:auto;
+    margin-top: 10px;
 }
 
 main{
@@ -320,6 +321,9 @@ AHORA VAMOS POR PORTAFOLIO
       display: block;
       margin: 0;
     }
+    video {
+        margin-top: 80px;
+        }
   }
 
   @media screen and (max-width: 600px) {
