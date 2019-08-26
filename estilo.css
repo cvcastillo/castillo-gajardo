@@ -119,12 +119,20 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 
 .integrante h4{
     padding: 2rem 2rem 0.25rem 2rem;
+    font-family: "Raleway", sans-serif;
+}
+
+.integrante p{
+    padding: 0.25rem 2rem;
+    font-size:0.9em;
+    font-style:normal;
+    margin-right: 50%;
 }
 
 .integrante address{
     padding: 0.25rem 2rem;
     font-size:0.9em;
-    font-style:normal;
+    font-style:italic;
 }
 
 .integrante blockquote{
